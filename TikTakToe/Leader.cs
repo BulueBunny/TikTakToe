@@ -17,7 +17,6 @@ namespace TikTakToe
         
         public string Name { get { return name; } set { name = value; OnPropertyChanged("Name"); } }
         private string name;
-        private static int ID {  get; set; }
         public int Wins { get { return wins; } set { wins = value; OnPropertyChanged("Wins"); } }
         private int wins;
         public Leader(string name)
